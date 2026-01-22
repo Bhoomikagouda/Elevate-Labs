@@ -1,0 +1,82 @@
+/* --------------------------------------------------
+   1. Global Styles (Cascading behavior)
+-------------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------------------------------
+   2. Layout Container
+-------------------------------------------------- */
+.container {
+    width: 80%;
+    margin: 30px auto;          /* Box model: margin */
+    padding: 20px;              /* Box model: padding */
+    background-color: #ffffff;
+    border: 2px solid #cccccc;  /* Box model: border */
+}
+
+/* --------------------------------------------------
+   3. Headings Styling (Visual hierarchy)
+-------------------------------------------------- */
+.main-heading {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* --------------------------------------------------
+   4. Paragraph Styling
+-------------------------------------------------- */
+.intro-text {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #eaf2f8;  /* Temporary background to visualize spacing */
+    padding: 10px;
+    border: 1px dashed #3498db;
+}
+
+/* --------------------------------------------------
+   5. List Styling
+-------------------------------------------------- */
+.styled-list {
+    padding-left: 20px;
+    background-color: #fdf2e9;
+    border: 1px solid #e67e22;
+}
+
+.styled-list li {
+    margin: 8px 0;
+}
+
+/* --------------------------------------------------
+   6. Reusable Box Class (Box Model)
+-------------------------------------------------- */
+.box {
+    margin: 20px 0;             /* Margin */
+    padding: 15px;              /* Padding */
+    border: 2px solid #27ae60;  /* Border */
+    background-color: #e9f7ef;  /* Content background */
+}
+
+/* --------------------------------------------------
+   7. Reusable Utility Class
+-------------------------------------------------- */
+.highlight-box {
+    background-color: #fff3cd;
+    border-color: #f1c40f;
+}
