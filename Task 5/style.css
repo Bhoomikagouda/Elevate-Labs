@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Form container */
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* Grouping */
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+/* Labels and inputs */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
