@@ -1,0 +1,52 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #333;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: white;
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+}
+
+/* Highlight active page */
+.nav-links a.active {
+    background-color: #ff9800;
+    border-radius: 5px;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+    padding: 40px;
+    min-height: 70vh;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
